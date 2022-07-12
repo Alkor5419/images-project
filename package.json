@@ -2,15 +2,18 @@
   "name": "starter-parcel-html-scss",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://alkor5419.github.io/images-project/",
   "repository": "git@github.com:Alkor5419/images-project.git",
   "author": "Telazhevich Artur <artur_z62@mail.ru>",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "parcel-bundler": "^1.12.5",
     "sass": "^1.53.0"
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   }
 }
